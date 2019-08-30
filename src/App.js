@@ -6,10 +6,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <img
+          src="https://46fjj12eeht73lsxezcqpvlt-wpengine.netdna-ssl.com/wp-content/uploads/2018/07/history-of-the-fanny-pack-cross-body-bag.jpg"
+          className="App-logo"
+          alt="logo"
+        />
+        <p>Future home of THE ROCK tinder.</p>
         <a
           className="App-link"
           href="https://reactjs.org"
