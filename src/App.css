@@ -16,6 +16,12 @@
   height: 12vw;
 }
 
+.profile-image {
+  height: 21vw;
+  width: 12vw;
+  object-fit: cover;
+}
+
 .Home-header {
   min-height: 100vh;
   display: flex;
