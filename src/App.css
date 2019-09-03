@@ -18,8 +18,11 @@
 
 .profile-image {
   height: 21vw;
-  width: 12vw;
+  width: 100%;
+  object-position: 100% 0;
   object-fit: cover;
+  width: "100%";
+  display: "block";
 }
 
 .Home-header {

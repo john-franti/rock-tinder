@@ -26,6 +26,13 @@ class App extends React.Component {
       };
     });
   };
+  dislikeRock = myRock => {
+    this.setState(prevState => {
+      return {
+        allRocks: prevState.allRocks.filter(rock => myRock !== rock)
+      };
+    });
+  };
 
   render() {
     return (
@@ -37,7 +44,7 @@ class App extends React.Component {
             <Route
               path="/dig"
               render={() => (
-                <Dig onLikeRock={this.likeRock} rocks={this.state.allRocks} />
+                <Dig onLikeRock={this.likeRock} onDislikeRock={this.dislikeRock} rocks={this.state.allRocks} />
               )}
             />
             <Route path="/matches" exact component={Matches} />
